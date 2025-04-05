@@ -1,0 +1,23 @@
+{
+  "name": "bloggen",
+  "version": "1.0.0",
+  "description": "An agenti-ai based blog generator on trending topics",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon scr/index.js"
+  },
+  "keywords": [
+    "Agenti-ai"
+  ],
+  "author": "Gurpreet",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.39",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "kaibanjs": "^0.18.0",
+    "nodemon": "^3.1.9",
+    "serpapi": "^2.1.0"
+  }
+}
